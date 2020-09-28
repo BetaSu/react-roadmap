@@ -32,8 +32,8 @@ module.exports = {
 						"title": "第一章 前置知识",
 						"children": [
 							[
-								"/pre/js",
-								"js知识"
+								"/pre/what-is-react",
+								"React是什么"
 							]
 						]
 					},
