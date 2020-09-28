@@ -1,0 +1,23 @@
+{
+  "name": "react-roadmap",
+  "version": "1.0.0",
+  "description": "2020年React通关路线图",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetaSu/react-roadmap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BetaSu/react-roadmap/issues"
+  },
+  "homepage": "https://github.com/BetaSu/react-roadmap#readme",
+  "devDependencies": {
+    "vuepress": "^1.6.0"
+  }
+}
