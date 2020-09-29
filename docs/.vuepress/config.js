@@ -25,37 +25,55 @@ module.exports = {
 		"sidebar": [
 			['/', '前言'],
 			{
-				"title": "入门",
+				"title": "入门篇",
 				"collapsable": true,
+				
 				"children": [
-					{
-						"title": "第一章 前置知识",
-						"children": [
-							[
-								"/pre/what-is-react",
-								"React是什么"
-							]
-						]
-					},
-					{
-						"title": "第二章 前置知识",
-						"children": [
-							[
-								"/preparation/file",
-								"源码的文件结构"
-							],
-							[
-								"/preparation/source",
-								"调试源码"
-							],
-							[
-								"/preparation/jsx",
-								"深入理解JSX"
-							]
-						]
-					}
+					[
+						"/pre/what-is-react",
+						"React是什么"
+					],
+					[
+						"/pre/js-for-react",
+						"必要的JS知识"
+					],
+					[
+						"/pre/react-start",
+						"React基础知识"
+					],
+					[
+						"/pre/lifecycle",
+						"组件的生命周期"
+					],
+					[
+						"/pre/cwrp",
+						"componentWillReceiveProps"
+					],
+					[
+						"/pre/feature",
+						"一些特性"
+					]
 				]
 			},
+			{
+				"title": "进阶篇",
+				"collapsable": true,
+				
+				"children": [
+					[
+						"/advance/pre",
+						"前言"
+					],
+					[
+						"/advance/hooks",
+						"Hooks"
+					],
+					[
+						"/advance/state-management",
+						"状态管理"
+					]
+				]
+			}
 		]
 	},
 	"base": ""
